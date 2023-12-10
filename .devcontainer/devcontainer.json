@@ -35,7 +35,12 @@
 		"codespaces": {}
 	},
 	// https://containers.dev/implementors/json_reference/#variables-in-devcontainerjson
-	"containerEnv": {}
+	"containerEnv": {
+		"LOCAL_USERNAME": "${localEnv:USERNAME}"
+	},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "gekal",
+	"remoteEnv": {
+		"PATH": "${containerEnv:PATH}"
+	}
 }
