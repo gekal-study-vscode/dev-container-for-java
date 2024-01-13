@@ -39,7 +39,8 @@
 				"vscjava.vscode-java-test",
 				"vscjava.vscode-java-dependency",
 				"vscjava.vscode-maven",
-				"vscjava.vscode-gradle"
+				"vscjava.vscode-gradle",
+				"humao.rest-client"
 			]
 		},
 		"codespaces": {}
